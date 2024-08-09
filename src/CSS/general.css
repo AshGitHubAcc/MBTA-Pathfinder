@@ -4,7 +4,7 @@ body {
     margin:0px;
     margin-top: 20px;
     font-family: sans-serif;
-    background-color: lightgray;
+    background-color: rgb(235, 235, 235);
 }
 
 p {
@@ -20,6 +20,7 @@ Move code below later
 .div-userinfo-1 {
     /* background-color: grey; */
     width: 100%;
+
     height: 500px;
     margin-top: 100px;
 
@@ -46,7 +47,7 @@ Move code below later
     width: 80%;
 
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 1.8fr 2fr 2fr;
     justify-content: center;
 
 }
@@ -69,15 +70,16 @@ Move code below later
     justify-content: center;
     align-items: center;
     column-gap: 30px;
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+
 }
 
 .div-userinfo-6 {
     background-color: rgb(255, 255, 255);
     box-shadow: 5px 5px 10px rgb(0, 0, 0, 0.3);
-    border-radius: 5px;
+    border-radius: 6px;
     padding: 10px;
-    
-
+    margin-bottom: 10px;
     display: flex;
 }
 
@@ -91,7 +93,7 @@ Move code below later
 
 
 .input-location {
-    width: 150px;
+    /* width: 150px; */
     background-color: transparent;
     border-style: none;
     outline: none;
@@ -102,5 +104,69 @@ Move code below later
 
 
 .div-userinfo-7 {
+    background-color: rgb(255, 255, 255);
+
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.3);
+    border-radius: 6px;
+
+
+
+    display: grid;
+    grid-template-rows: 1fr 4fr;
+    align-items: center;
+    justify-content: center;
+
+
+
+}
+
+
+.div-userinfo-8 {
+    /* background-color: lightgreen; */
+
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.div-userinfo-9 {
+    /* background-color: lightcoral; */
+
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.input-time {
+    /* width: 50px; */
+}
+
+
+.div-userinfo-10 {
+    /* background-color: lightblue; */
+
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+
+
+.div-userinfo-11 {
+    box-shadow: 10px 10px 40px rgb(0, 0, 0, 0.5);
+    border-radius: 6px;
+
     
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.text-compute {
+    font-weight: bold;
+    font-size: 25px;
+    padding: 10px;
+    color: rgb(69, 212, 69);
 }
