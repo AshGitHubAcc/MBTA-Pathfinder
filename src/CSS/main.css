@@ -10,10 +10,11 @@
     padding-top: 5px;
     padding-bottom: 5px;
 
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.5);
+
     display: grid;
     grid-template-columns: 3fr 1fr;
 
-    margin-bottom: 100px;
 
 }
 
@@ -66,38 +67,136 @@
 */
 
 .div-user-info-main {
-    background-color: lightblue;
+    /* background-color: lightblue; */
     width: 100%;
-    height: 300px;
-
-
-}
-
-
-.div-user-info-sub1 {
-    background-color: lightcoral;
-    height: 50%;
+    height: 750px;
 
     display: flex;
     align-items: center;
-    justify-content: space-around;
-
-    
+    justify-content: center;
 
 
 }
 
-.div-user-info-sub1-sub1 {
 
-    background-color: lightpink;
+.div-user-info-1 {
+    background-color: rgb(236, 236, 236);
+    height: 50%;
+    width: 80%;
+    border-radius: 10px;
+    border-style: none;
+    padding: 20px;
+
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.3);
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.div-user-info-1-1 {
+    /* background-color: rgb(205, 205, 205); */
+    height: 60%;
+    width: 90%;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.div-user-info-1-1-1 {
+    background-color: rgb(210, 210, 210);
+    padding: 10px;
+    box-shadow: inset 10px 10px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 6px;
+
 
     display: flex;
     column-gap: 10px;
 
+}
+
+
+.text-user-info {
+    font-size: 25px;
+    font-weight: bold;
+
+
+    padding: 5px;
+
+}
+
+.input-field-location {
+    width: 200px;
+    background-color: transparent;
+    border-style: none;
+    outline: none;
+}
+
+
+
+
+.div-user-info-1-2 {
+    background-color: lightgray;
+    height: 300px;
+    width: 600px;
+
+    box-shadow: inset 15px 15px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 6px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 30px;
+
+
+}
+
+.div-user-info-1-2-1 {
+    /* background-color: lightcyan; */
+    height: 100%;
+
+
+    display: flex;
+    flex-direction: column;
+}
+
+
+.div-user-info-1-2-1-1 {
+    /* background-color: lightslategray; */
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.div-user-info1-2-0 {
+    margin-top: 25px
+}
+
+
+.div-user-info-1-2-1-1-1 {
+    /* background-color: lightpink; */
+
+    display: flex;
+    column-gap: 30px;
+    align-items: center;
 
 }
 
 
-.input-field-location {
-    width: 300px;
+
+.div-user-info-1-2-1-1-1-1 {
+    /* background-color: lightgreen; */
+    display: flex;
+
+    column-gap: 5px;
+    width: 100%;
+
 }
